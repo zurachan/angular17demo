@@ -1,6 +1,6 @@
 [build]
 base = "angular17demo"
-command = "npm run build --prod"
+command = "npm run build:prod"
 publish = "dist/browser"
 
 [[redirects]]
