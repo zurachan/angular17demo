@@ -1,0 +1,72 @@
+<div class="sidebar-info">
+  <figure class="avatar-box">
+    <img src="assets/images/avatar.jpg" alt="Duong Hoang Thai" loading="lazy" width="50">
+  </figure>
+  <div class="info-content">
+    <h1 class="name" title="Duong Hoang Thai">Duong Hoang Thai</h1>
+    <p class="title">Software developer</p>
+  </div>
+  <button class="info_more-btn" data-sidebar-btn>
+    <span>Show Contacts</span>
+    <fa-icon [icon]="faChevronDown"></fa-icon>
+  </button>
+</div>
+<div class="sidebar-info_more">
+  <div class="separator"></div>
+  <ul class="contacts-list">
+    <li class="contact-item">
+      <div class="icon-box">
+        <fa-icon [icon]="faEnvelope"></fa-icon>
+      </div>
+      <div class="contact-info">
+        <p class="contact-title">Email</p>
+        <a href="mailto:manchestervn1996@gmail.com" class="contact-link">manchestervn1996&#64;gmail.com</a>
+      </div>
+    </li>
+    <li class="contact-item">
+      <div class="icon-box">
+        <fa-icon [icon]="faPhone"></fa-icon>
+      </div>
+      <div class="contact-info">
+        <p class="contact-title">Phone</p>
+        <a href="tel:+84962257510" class="contact-link">+84 96 225 7510</a>
+      </div>
+    </li>
+    <li class="contact-item">
+      <div class="icon-box">
+        <fa-icon [icon]="faCalendar"></fa-icon>
+      </div>
+      <div class="contact-info">
+        <p class="contact-title">Birthday</p>
+        <time datetime="1996-06-17">June 17, 1996</time>
+      </div>
+    </li>
+    <li class="contact-item">
+      <div class="icon-box">
+        <fa-icon [icon]="faMapMarkerAlt"></fa-icon>
+      </div>
+      <div class="contact-info">
+        <p class="contact-title">Location</p>
+        <address>Long Bien, Ha Noi, Viet Nam</address>
+      </div>
+    </li>
+  </ul>
+  <div class="separator"></div>
+  <ul class="social-list">
+    <li class="social-item">
+      <a href="https://fb.com/iveternity" target="_blank" class="social-link">
+        <fa-icon [icon]="faFacebook"></fa-icon>
+      </a>
+    </li>
+    <li class="social-item">
+      <a href="https://www.linkedin.com/in/duonghoang21/" target="_blank" class="social-link">
+        <fa-icon [icon]="faLinkedin"></fa-icon>
+      </a>
+    </li>
+    <li class="social-item">
+      <a href="https://github.com/zurachan" target="_blank" class="social-link">
+        <fa-icon [icon]="faGithub"></fa-icon>
+      </a>
+    </li>
+  </ul>
+</div>
